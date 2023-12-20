@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+
+.container {
+    font-size: 2em;
+    background-color: darkslategray;
+    border: 2px solid black;
+    text-align: center;
+    height: 200px;
+}
+
+.search {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.home {
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.login {
+    padding: 10px;
+    background-color: gold;
+}

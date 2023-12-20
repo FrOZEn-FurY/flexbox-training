@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search {
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.home {
+    order: 0;
+    flex-basis: 400px;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+
+.login {
+    order: 2;
+    margin-left: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
